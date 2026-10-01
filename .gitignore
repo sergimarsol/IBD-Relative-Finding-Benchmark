@@ -78,3 +78,7 @@ data_qc/merge_list.txt
 
 # Logs
 logs/
+
+# External tool jars/binaries (download separately)
+*.jar
+g2

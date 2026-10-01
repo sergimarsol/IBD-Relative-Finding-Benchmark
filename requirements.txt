@@ -1,0 +1,7 @@
+# Python dependencies for post-processing and plotting scripts in scripts/
+# External tools (bcftools, plink2, plink 1.9, GERMLINE2, Java + Beagle / Refined IBD)
+# are installed separately -- see README.
+pandas
+numpy
+matplotlib
+upsetplot
