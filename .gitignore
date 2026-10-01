@@ -1,0 +1,80 @@
+# Secrets & credentials — never commit
+.env
+.env.*
+*.pem
+*.key
+api-key.txt
+api_key.txt
+*token*.txt
+credentials*.json
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+.conda/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Large artifacts: model weights, caches, raw data
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.dill
+*.faiss
+*.index
+wandb/
+mlruns/
+
+# Large raw IBD outputs (regenerate with scripts/)
+*.genome
+*.kin0
+results/GERMLINE2/pairwise_ibd*.csv
+data_raw/*.vcf.gz
+data_qc/
+
+# --- original project rules ---
+# Large genomic data files
+data_raw/*.vcf.gz
+data_raw/*.vcf.gz.tbi
+data_raw/*.vcf.gz.csi
+data_raw/*.panel
+data_raw/*.zip
+data_raw/*.hap
+data_raw/*.hap.gz
+
+# PLINK binary/intermediate files
+data_qc/*.bed
+data_qc/*.bim
+data_qc/*.fam
+data_qc/*.log
+data_qc/*.pgen
+data_qc/*.psam
+data_qc/*.pvar
+data_qc/*.pvar.zst
+data_qc/*.vcf.gz
+data_qc/*.vcf.gz.csi
+data_qc/merge_list.txt
+
+# Tool binaries/archives
+*.zip
+
+# Logs
+logs/
