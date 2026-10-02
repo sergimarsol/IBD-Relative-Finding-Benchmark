@@ -33,7 +33,7 @@ IBD-state approximation details:
         P2    = length(intersection(union(bucket0), union(bucket1))) / chr_len_cm
         P1    = P_ge1 - P2
         P0    = 1 - P_ge1
-  - This is a practical, project-level approximation (similar in spirit to your GERMLINE hap-mode approach).
+  - This is a practical, project-level approximation (similar in spirit to the GERMLINE2 hap-mode analysis).
 
 Usage:
   python3 scripts/analyze_refinedibd.py \

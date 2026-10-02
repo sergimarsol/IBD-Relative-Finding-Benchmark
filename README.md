@@ -2,8 +2,6 @@
 
 **Benchmarking three identity-by-descent (IBD) detection approaches for relative finding (PLINK KING / `--genome`, GERMLINE2, and Beagle + Refined IBD) on 1,000 individuals from 1000 Genomes Phase 3.**
 
-UCSD CSE 284 (Bioinformatics), Winter 2026. Team project by Sehaj Dhillon, Lillian Liu and Sergi Marsol.
-
 ---
 
 ## Overview
@@ -250,7 +248,7 @@ Figures are written to `plots/plot{1..5}_*.png`. A run matches the reference out
 - **Lillian Liu**: GERMLINE2 pipeline, genetic maps, analysis and runtime profiling
 - **Sergi Marsol**: data/QC pipeline, PLINK KING and `--genome`, cross-method benchmarking figures, documentation
 
-Course project for CSE 284 at UC San Diego (Winter 2026). Data from the [1000 Genomes Project](https://www.internationalgenome.org/) Phase 3 release. Tools: PLINK, bcftools, GERMLINE2 (Gusev lab), Beagle and Refined IBD (B. Browning).
+Developed at UC San Diego (CSE 284, Bioinformatics, Winter 2026). Data from the [1000 Genomes Project](https://www.internationalgenome.org/) Phase 3 release. Tools: PLINK, bcftools, GERMLINE2 (Gusev lab), Beagle and Refined IBD (B. Browning).
 
 ## License
 

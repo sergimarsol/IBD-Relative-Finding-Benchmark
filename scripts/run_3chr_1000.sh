@@ -2,7 +2,7 @@
 # ===============================================
 # Phase 1 & 2 — 1000 Genomes subset, chr20, chr21, chr22
 # 1000 samples, 3 small chromosomes, PLINK2 KING analysis
-# All paths relative to the cse284-final-project directory
+# All paths relative to the repository root
 # ===============================================
 set -euo pipefail
 
